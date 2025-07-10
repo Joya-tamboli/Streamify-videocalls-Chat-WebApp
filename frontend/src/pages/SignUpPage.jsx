@@ -23,7 +23,7 @@ const SignUpPage = () => {
   // });
 
   // This is how we did it using our custom hook - optimized version
-  const { isPending, error, signupMutation } = useSignUp();
+  const { isPending, error, signupMutation } = useSignup();
 
   const handleSignup = (e) => {
     e.preventDefault();
